@@ -140,7 +140,6 @@ class Map extends Component {
 				const type = feature.geometry.type;
 				switch (type) {
 					case "Point":
-					console.log('kloop')
 					return L.circleMarker(latlng, pointStyle);
 					break;
 				}
@@ -158,7 +157,7 @@ class Map extends Component {
 		
 		return new Promise((resolve, reject) => {
 		base('SoilData').select({
-			maxRecords: 10,
+			maxRecords: 100,
 			view: 'Grid view'
 		}).firstPage(function(err, records) {
 			if (err) { console.error(err); return reject({}); }
