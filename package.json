@@ -2,7 +2,7 @@
   "name": "leaflet-polygon-multiple-borders",
   "description": "Customizable swoopy arrow annotations on top of Leaflet maps.",
   "version": "0.0.39",
-  "homepage": "https://sdk484.github.io/soil-viewer/build/",
+  "homepage": "https://sdk484.github.io/soil-viewer",
   "dependencies": {
     "airtable": "^0.11.1",
     "leaflet": "1.2.0",
